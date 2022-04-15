@@ -3,7 +3,7 @@ let i = 1;
 let res = `<li>${i++} `;
 
 for (char of names) {
-  if (char == ',') {
+  if (char === ',') {
     res += '</li>';
     console.log(res);
     res = `<li>${i++}`;
