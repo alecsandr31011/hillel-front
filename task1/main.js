@@ -1,7 +1,14 @@
 let names = prompt('Type your string!');
+let i = 1;
+let res = `<li>${i++} `;
 
-let namesArr = names.split(', ');
-
-for (i in namesArr) {
-  console.log(`<li>${++i} ${namesArr[--i]}</li>`);
+for (char of names) {
+  if (char == ',') {
+    res += '</li>';
+    console.log(res);
+    res = `<li>${i++}`;
+  } else res += char;
 }
+
+res += `</li>`;
+console.log(res);
