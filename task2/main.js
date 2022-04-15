@@ -11,4 +11,4 @@ for (let i = 0; i < names.length; i++) {
     }
   } else res += names[i];
 }
-console.log(res);
+alert(res);
