@@ -1,0 +1,44 @@
+.App {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+}
+input {
+  max-width: 300px;
+  padding: 8px 12px;
+}
+button {
+  max-width: 150px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  gap: 20px;
+  border: 1px solid lightblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  border: 1px solid black;
+  padding: 20px;
+  max-width: 300px;
+  overflow: hidden;
+}
